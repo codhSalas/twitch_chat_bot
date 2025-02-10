@@ -1,0 +1,23 @@
+<%- include("./shared/header.ejs") %>
+<!-- <h1><%= locals.data %></h1> -->
+<form method="get" action="/data">
+  <div  class="input">
+    <label for="braodcast_name">braodcast_name</label>
+    <input id="braodcast_name"  type=" text" value="codhein_404" name="braodcast_name"/>
+  </div>
+  <div  class="input">
+    <label for="sender_name">sender_name</label>
+    <input id="sender_name"  type=" text" value="codhein_404" name="sender_name"/>
+  </div>
+  <div id="areaMessage">
+    <label for="message">twitch message</label>
+    <textarea id="message" name="message">Hello, World! HeyGuys</textarea>
+  </div>
+  <a href="/auth" class="login-button">Se connecter avec Twitch</a>
+<button>envoyer</button>
+</form>
+<!-- Doigt d'honneur numéro 1
+┌П┐(◉_◉)┌П┐
+Doigt d'honneur numéro 2
+╭∩╮（︶︿︶） ╭∩╮ -->
+<%- include("./shared/header.ejs") %>
